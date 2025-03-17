@@ -6,6 +6,7 @@ import Props_example from "./component/Props_example";
 import Responding_to_Events from "./component/Responding_to_Events";
 import Shorthand_if_else from "./component/Shorthand_if_else";
 import UserefHook from "./component/UserefHook";
+import UseStateHook from "./component/UseStateHook";
 
 const App = () => {
   const studentInfo = {
@@ -30,7 +31,7 @@ const App = () => {
       <Form />
       {/* react Hook Section */}
       <UserefHook />
-      <UserefHook />
+      <UseStateHook />
     </>
   );
 };
