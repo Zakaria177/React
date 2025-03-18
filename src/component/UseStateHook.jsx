@@ -8,9 +8,9 @@ import FormUseStateHook from "../Hooks/FormUseStateHook";
 const UseStateHook = () => {
   return (
     <>
-      {/* <ManagingNumberUseStateHook />
+      <ManagingNumberUseStateHook />
       <ObjectUseStateHook />
-      <TodoApp /> */}
+      <TodoApp />
       <FormUseStateHook />
     </>
   );
